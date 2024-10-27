@@ -6,7 +6,7 @@
 .hero {
     position: relative;
     padding: 40px 24px;
-    min-height: 500px;
+    min-height: 550px;
 }
 
 .hero h1 {
@@ -17,7 +17,7 @@
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
     bottom: 0px; /* Abstand vom unteren Rand */
-    left: 200px; /* Abstand vom linken Rand */
+    left: 170px; /* Abstand vom linken Rand */
 }
 
 .hero picture {
