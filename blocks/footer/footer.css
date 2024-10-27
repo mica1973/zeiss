@@ -9,7 +9,7 @@ footer .footer > div {
   justify-content: center;         /* Inhalte in der Mitte zentrieren */
   align-items: center;             /* Inhalte vertikal zentrieren */
   margin: auto;
-  max-width: 1200px;
+  max-width: 1800;
   padding: 40px 24px;             /* Padding anpassen */
 }
 
