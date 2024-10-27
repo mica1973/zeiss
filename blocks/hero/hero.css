@@ -13,7 +13,7 @@
 .hero h1,
 .hero h2 {
     max-width: 80%; /* Breite auf 80% des Containers einstellen */
-    margin: 0;
+    margin: 2;
     color: black; /* Textfarbe schwarz */
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
