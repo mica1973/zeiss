@@ -5,21 +5,20 @@ footer {
 }
 
 footer .footer > div {
-  display: flex;              /* Layout auf Flexbox setzen */
-  justify-content: space-between; /* Inhalte gleichmäßig verteilen */
-  align-items: center;        /* Inhalte vertikal zentrieren */
+  display: flex;                   /* Layout auf Flexbox setzen */
+  justify-content: center;         /* Inhalte in der Mitte zentrieren */
+  align-items: center;             /* Inhalte vertikal zentrieren */
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
 }
 
-footer .footer p {
-  margin: 20px;
+footer .footer > div > * {
+  margin: 20px; /* Abstand zwischen den Inhalten anpassbar */
 }
 
-/* Abstand zwischen SVGs im Footer erhöhen */
-footer .footer svg {
-  margin: 20px; /* Vergrößert den Abstand zwischen den SVGs */
+footer .footer p {
+  margin: 0; /* Margin für p-Elemente zurücksetzen, um den Abstand kontrolliert zu halten */
 }
 
 @media (width >= 900px) {
