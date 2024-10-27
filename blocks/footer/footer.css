@@ -6,8 +6,8 @@ footer {
 
 footer .footer > div {
   display: flex;                   /* Layout auf Flexbox setzen */
-  justify-content: center;         /* Inhalte in der Mitte zentrieren */
-  align-items: center;             /* Inhalte vertikal zentrieren */
+  justify-content: left;         /* Inhalte in der Mitte zentrieren */
+  align-items: left;             /* Inhalte vertikal zentrieren */
   margin: auto;
   max-width: 1200px;
   padding: 40px 24px 24px;
