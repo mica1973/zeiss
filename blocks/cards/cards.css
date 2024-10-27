@@ -8,8 +8,8 @@
 }
 
 .cards > ul > li {
-
-  background-color: var(--background-color);
+  background-color: #ffffff; /* Hintergrundfarbe auf Weiß setzen */
+  border: none; /* Keine Umrandung */
 }
 
 .cards .cards-card-body {
