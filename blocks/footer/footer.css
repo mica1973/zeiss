@@ -18,7 +18,7 @@ footer .footer > div > * {
 }
 
 footer .footer p {
-  margin: 5; /* Margin für p-Elemente zurücksetzen, um den Abstand kontrolliert zu halten */
+  margin: 50; /* Margin für p-Elemente zurücksetzen, um den Abstand kontrolliert zu halten */
 }
 
 @media (width >= 900px) {
