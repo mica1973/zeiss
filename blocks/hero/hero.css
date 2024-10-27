@@ -20,6 +20,10 @@
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Leichter Schatten für Text */
     display: inline-block; /* Passt sich dem Textinhalt an */
     opacity: 0.85; /* Leichte Transparenz */
+    position: absolute; /* Absolut positioniert */
+    bottom: 20px; /* Positionierung unten */
+    left: 50%; /* Zentrierung */
+    transform: translateX(-50%); /* Exakte Zentrierung */
 }
 
 .hero picture {
