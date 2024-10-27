@@ -17,7 +17,7 @@
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
-    bottom: 10px; /* Abstand vom unteren Rand */
+    bottom: 0px; /* Abstand vom unteren Rand */
     left: 10%; /* Abstand vom linken Rand */
     font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
@@ -29,7 +29,7 @@
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
-    bottom: 10px; /* Abstand vom unteren Rand */
+    bottom: 0px; /* Abstand vom unteren Rand */
     left: 10%; /* Abstand vom linken Rand */
     font-size: 1vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
@@ -68,6 +68,6 @@
         max-width: 800px; /* Anpassung der Breite für größere Bildschirme */
         font-size: 1.0em; /* Schriftgröße für größere Bildschirme */
         padding: 20px; /* Anpassung des Innenabstands */
-        bottom: 20px; /* Abstand vom unteren Rand für größere Bildschirme */
+        bottom: 0px; /* Abstand vom unteren Rand für größere Bildschirme */
     }
 }
