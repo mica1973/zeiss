@@ -1,6 +1,6 @@
 footer {
   background-color: white; /* Hintergrundfarbe Weiß */
-  font-size: var(--body-font-size-s);
+  font-size: var(--body-font-size-m);
   color: #505050; /* Textfarbe Dunkelgrau */
 }
 
