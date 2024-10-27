@@ -22,7 +22,7 @@
 }
 
 .hero h1 {
-    
+    bottom: 0;
     font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
 
