@@ -17,9 +17,21 @@
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
-    bottom: 0px; /* Abstand vom unteren Rand */
+    bottom: 50px; /* Abstand vom unteren Rand */
     left: 10%; /* Abstand vom linken Rand */
     font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
+}
+
+.hero h2 {
+    max-width: 80%; /* Breite auf 80% des Containers einstellen */
+    margin: 0;
+    color: black; /* Textfarbe schwarz */
+    background-color: white; /* Hintergrundfarbe weiß */
+    padding: 16px; /* Abstand innerhalb der Box */
+    position: absolute; /* Absolute Positionierung */
+    bottom: 10px; /* Abstand vom unteren Rand */
+    left: 10%; /* Abstand vom linken Rand */
+    font-size: 3vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
 
 .hero picture {
@@ -50,5 +62,12 @@
         max-width: 800px; /* Anpassung der Breite für größere Bildschirme */
         font-size: 2.5em; /* Schriftgröße für größere Bildschirme */
         padding: 24px; /* Anpassung des Innenabstands */
+    }
+
+    .hero h2 {
+        max-width: 800px; /* Anpassung der Breite für größere Bildschirme */
+        font-size: 1.8em; /* Schriftgröße für größere Bildschirme */
+        padding: 20px; /* Anpassung des Innenabstands */
+        bottom: 40px; /* Abstand vom unteren Rand für größere Bildschirme */
     }
 }
