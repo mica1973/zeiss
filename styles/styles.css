@@ -4,10 +4,10 @@
  * you may not use this file except in compliance with the License. You may obtain a copy
  * of the License at http://www.apache.org/licenses/LICENSE-2.0
  *
- * Unless required by applicable law or agreed to in writing, software distributed under
- * the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
- * OF ANY KIND, either express or implied. See the License for the specific language
- * governing permissions and limitations under the License.
+ * Unless required by applicable law or agreed to in writing, software distributed under the
+ * License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR REPRESENTATIONS
+ * OF ANY KIND, either express or implied. See the License for the specific language governing
+ * permissions and limitations under the License.
  */
 
 :root {
@@ -20,8 +20,8 @@
   --link-hover-color: #3070e7;
 
   /* fonts */
-  --body-font-family: roboto, roboto-fallback, sans-serif;
-  --heading-font-family: roboto-condensed, roboto-condensed-fallback, sans-serif;
+  --body-font-family: "Frutiger Next", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
+  --heading-font-family: "Frutiger Next", "Helvetica Neue", Helvetica, Roboto, Arial, sans-serif;
 
   /* body sizes */
   --body-font-size-m: 22px;
