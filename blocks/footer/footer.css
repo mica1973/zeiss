@@ -6,23 +6,23 @@ footer {
 
 footer .footer > div {
   display: flex;                   /* Layout auf Flexbox setzen */
-  justify-content: left;         /* Inhalte in der Mitte zentrieren */
-  align-items: left;             /* Inhalte vertikal zentrieren */
+  justify-content: center;         /* Inhalte in der Mitte zentrieren */
+  align-items: center;             /* Inhalte vertikal zentrieren */
   margin: auto;
   max-width: 1200px;
-  padding: 400px 24px 24px;
+  padding: 40px 24px;             /* Padding anpassen */
 }
 
 footer .footer > div > * {
-  margin: 70px; /* Abstand zwischen den Inhalten anpassbar */
+  margin: 20px; /* Abstand zwischen den Inhalten anpassbar */
 }
 
 footer .footer p {
-  margin: 50; /* Margin für p-Elemente zurücksetzen, um den Abstand kontrolliert zu halten */
+  margin: 0; /* Margin für p-Elemente zurücksetzen, um den Abstand kontrolliert zu halten */
 }
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 40px 32px; /* Padding anpassen für größere Bildschirme */
   }
 }
