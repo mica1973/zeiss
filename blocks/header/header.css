@@ -19,13 +19,6 @@ header nav {
   height: var(--nav-height);
   padding: 0 24px;
   font-family: var(--body-font-family);
-  transition: height 0.3s ease, padding 0.3s ease;
-}
-
-/* Verkleinern der Navigation beim Scrollen */
-header.scrolled nav {
-  height: 70px; /* Reduzierte Höhe */
-  padding: 0 16px; /* Kleinere Innenabstände */
 }
 
 header nav[aria-expanded='true'] {
@@ -154,6 +147,17 @@ header .nav-brand {
 header nav .nav-brand img {
   width: 128px;
   height: auto;
+}
+
+/* SVG Anpassung */
+header .nav-brand svg {
+  width: 128px; /* Standardgröße */
+  height: auto; /* Automatische Höhe */
+  transition: width 0.3s ease; /* Sanfte Übergänge für die Größe */
+}
+
+header.scrolled .nav-brand svg {
+  width: 100px; /* Verkleinerte Größe beim Scrollen */
 }
 
 /* sections */
