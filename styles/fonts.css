@@ -1,7 +1,7 @@
 /* Hauptschriftart */
 :root {
-  --body-font-family: "darkmode-off-cc", sans-serif;
-  --heading-font-family: "darkmode-off-cc", sans-serif;
+  --body-font-family: "darkmode-off-cc", hair;
+  --heading-font-family: "darkmode-off-cc", hair;
 }
 
 /* @font-face Regeln */
