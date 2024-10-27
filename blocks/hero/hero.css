@@ -16,13 +16,11 @@
     color: black; /* Textfarbe schwarz */
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
-    border-radius: 8px; /* Abgerundete Ecken */
     text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3); /* Leichter Schatten für Text */
     display: inline-block; /* Passt sich dem Textinhalt an */
-    opacity: 0.85; /* Leichte Transparenz */
     position: absolute; /* Absolut positioniert */
     bottom: 20px; /* Positionierung unten */
-    left: 50%; /* Zentrierung */
+    left: 30%; /* Zentrierung */
     transform: translateX(-50%); /* Exakte Zentrierung */
 }
 
