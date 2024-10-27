@@ -10,7 +10,7 @@ footer .footer > div {
   align-items: center;        /* Inhalte vertikal zentrieren */
   margin: auto;
   max-width: 1200px;
-  padding: 400px 24px 24px;
+  padding: 400px 240px 240px;
 }
 
 footer .footer p {
@@ -19,6 +19,6 @@ footer .footer p {
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 400px 320px 240px;
   }
 }
