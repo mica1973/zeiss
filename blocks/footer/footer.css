@@ -1,21 +1,22 @@
+
 footer {
-  background-color: white; /* Hintergrundfarbe auf Weiß setzen */
-  color: #505050; /* Textfarbe auf Dunkelgrau setzen */
+  background-color: white; /* Hintergrundfarbe auf WeiÃŸ setzen */
+  color: #505050; /* Textfarbe dunkelgrau */
   font-size: var(--body-font-size-xs);
 }
 
 footer .footer > div {
   margin: auto;
   max-width: 1200px;
-  padding: 40px 24px 24px;
+  padding: 60px 24px 40px; /* VergrÃ¶ÃŸertes Padding fÃ¼r mehr Abstand */
 }
 
 footer .footer p {
-  margin: 0;
+  margin: 0 0 20px; /* Abstand zwischen einzelnen AbsÃ¤tzen */
 }
 
 @media (width >= 900px) {
   footer .footer > div {
-    padding: 40px 32px 24px;
+    padding: 60px 32px 40px; /* GrÃ¶ÃŸere AbstÃ¤nde fÃ¼r grÃ¶ÃŸere Bildschirme */
   }
 }
