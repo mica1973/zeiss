@@ -17,7 +17,7 @@
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
-    bottom: 50px; /* Abstand vom unteren Rand */
+    bottom: 10px; /* Abstand vom unteren Rand */
     left: 10%; /* Abstand vom linken Rand */
     font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
