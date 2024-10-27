@@ -31,7 +31,7 @@
     position: absolute; /* Absolute Positionierung */
     bottom: 10px; /* Abstand vom unteren Rand */
     left: 10%; /* Abstand vom linken Rand */
-    font-size: 3vw; /* Schriftgröße basierend auf der Breite des Viewports */
+    font-size: 1vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
 
 .hero picture {
