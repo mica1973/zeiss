@@ -7,6 +7,7 @@
     position: relative;
     padding: 40px 24px;
     min-height: 600px;
+    overflow: hidden; /* Versteckt überflüssige Inhalte */
 }
 
 .hero h1 {
@@ -26,12 +27,17 @@
     inset: 0;
     object-fit: cover;
     box-sizing: border-box;
+    background-attachment: fixed; /* Bild bleibt beim Scrollen fixiert */
 }
 
 .hero img {
     object-fit: cover;
     width: 100%;
     height: 100%;
+    position: absolute; /* Absolute Positionierung */
+    top: 0;
+    left: 0;
+    z-index: -1; /* Hinter den anderen Inhalten */
 }
 
 @media (width >= 900px) {
