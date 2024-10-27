@@ -10,18 +10,7 @@
     overflow: hidden; /* Versteckt überflüssige Inhalte */
 }
 
-.hero h1 {
-    max-width: 80%; /* Breite auf 80% des Containers einstellen */
-    margin: 0;
-    color: black; /* Textfarbe schwarz */
-    background-color: white; /* Hintergrundfarbe weiß */
-    padding: 16px; /* Abstand innerhalb der Box */
-    position: absolute; /* Absolute Positionierung */
-    bottom: 40%; /* Abstand vom unteren Rand anpassen */
-    left: 10%; /* Abstand vom linken Rand */
-    font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
-}
-
+.hero h1,
 .hero h2 {
     max-width: 80%; /* Breite auf 80% des Containers einstellen */
     margin: 0;
@@ -29,8 +18,16 @@
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
-    bottom: 0; /* Kein Abstand vom unteren Rand */
     left: 10%; /* Abstand vom linken Rand */
+}
+
+.hero h1 {
+    bottom: 40%; /* Abstand vom unteren Rand für h1 anpassen */
+    font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
+}
+
+.hero h2 {
+    bottom: 0; /* Kein Abstand vom unteren Rand für h2 */
     font-size: 1vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
 
