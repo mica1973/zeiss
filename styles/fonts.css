@@ -1,44 +1,45 @@
-:root {
-  /* colors */
-  --background-color: white;
-  --light-color: #f8f8f8;
-  --dark-color: #505050;
-  --text-color: #131313;
-  --link-color: #172cac;
-  --link-hover-color: #3070e7;
-
-  /* fonts */
-  --body-font-family: "myriad-pro", sans-serif;
-  --heading-font-family: "myriad-pro", sans-serif;
-
-  /* body sizes */
-  --body-font-size-m: 22px;
-  --body-font-size-s: 19px;
-  --body-font-size-xs: 17px;
-
-  /* heading sizes */
-  --heading-font-size-xxl: 55px;
-  --heading-font-size-xl: 44px;
-  --heading-font-size-l: 34px;
-  --heading-font-size-m: 27px;
-  --heading-font-size-s: 24px;
-  --heading-font-size-xs: 22px;
-
-  /* nav height */
-  --nav-height: 170px;
-}
-
+/* stylelint-disable max-line-length */
 @font-face {
-  font-family: 'myriad-pro';
+  font-family: 'Frutiger Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
   font-style: normal;
-  font-weight: 200;
-  src: local('myriad-pro'), local('Arial');
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/roboto-condensed-bold.woff2') format('woff2');
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-body {
-  font-family: var(--body-font-family);
-  font-weight: 300;
+@font-face {
+  font-family: 'Frutiger Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url('../fonts/roboto-bold.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
-/* Weitere Styles beibehalten */
+@font-face {
+  font-family: 'Frutiger Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  src: url('../fonts/roboto-medium.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Frutiger Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  src: url('../fonts/roboto-regular.woff2') format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+  font-family: 'Frutiger Next', 'Helvetica Neue', Helvetica, Roboto, Arial, sans-serif;
+  font-style: normal;
+  font-weight: 100; /* Dünne Schriftart */
+  font-display: swap;
+  src: url('../fonts/roboto-light.woff2') format('woff2'); /* Hier muss die Datei für die dünne Schriftart vorhanden sein */
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
