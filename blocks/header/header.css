@@ -19,6 +19,13 @@ header nav {
   height: var(--nav-height);
   padding: 0 24px;
   font-family: var(--body-font-family);
+  transition: height 0.3s ease, padding 0.3s ease;
+}
+
+/* Verkleinern der Navigation beim Scrollen */
+header.scrolled nav {
+  height: 70px; /* Reduzierte Höhe */
+  padding: 0 16px; /* Kleinere Innenabstände */
 }
 
 header nav[aria-expanded='true'] {
