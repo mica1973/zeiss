@@ -17,6 +17,11 @@ footer .footer p {
   margin: 20px;
 }
 
+/* Abstand zwischen SVGs im Footer erhöhen */
+footer .footer svg {
+  margin: 20px; /* Vergrößert den Abstand zwischen den SVGs */
+}
+
 @media (width >= 900px) {
   footer .footer > div {
     padding: 40px 32px 24px;
