@@ -22,7 +22,7 @@
 }
 
 .hero h1 {
-    bottom: 40%; /* Abstand vom unteren Rand für h1 anpassen */
+    
     font-size: 5vw; /* Schriftgröße basierend auf der Breite des Viewports */
 }
 
