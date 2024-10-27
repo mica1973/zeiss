@@ -14,6 +14,8 @@
   margin-left: auto;
   margin-right: auto;
   color: var(--background-color);
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.6); /* Textschatten hinzufügen */
+
 }
 
 .hero picture {
