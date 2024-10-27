@@ -17,10 +17,9 @@
     padding: 16px; /* Abstand innerhalb der Box */
     border-radius: 4px; /* Abgerundete Ecken */
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Schatten für bessere Sichtbarkeit */
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.3); /* Leichter Schatten für Text */
     position: absolute; /* Absolute Positionierung */
-    bottom: 20px; /* Abstand vom unteren Rand */
-    left: 20px; /* Abstand vom linken Rand */
+    bottom: 0px; /* Abstand vom unteren Rand */
+    left: 30px; /* Abstand vom linken Rand */
 }
 
 .hero picture {
