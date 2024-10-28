@@ -25,7 +25,7 @@ header nav {
 
 /* Verkleinern der Navigation beim Scrollen */
 header.scrolled nav {
-  height: 70px; /* Reduzierte Höhe */
+  height: 80px; /* Reduzierte Höhe */
   padding: 0 1%; /* Kleinere Innenabstände */
   font-size: 0.9rem; /* Kleinere Schriftgröße beim Scrollen */
 }
