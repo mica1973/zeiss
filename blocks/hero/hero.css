@@ -14,7 +14,7 @@
 .hero h2 {
     max-width: 80%; /* Breite auf 80% des Containers einstellen */
     margin: 0;
-    color: #505050;
+    color: #4d4f53;
     background-color: white; /* Hintergrundfarbe weiß */
     padding: 16px; /* Abstand innerhalb der Box */
     position: absolute; /* Absolute Positionierung */
