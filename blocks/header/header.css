@@ -21,7 +21,7 @@ header nav {
   padding: 0 2%; /* Verwendung von Prozent für den Padding */
   font-family: var(--body-font-family);
   transition: height 0.3s ease, padding 0.3s ease, font-size 0.3s ease; /* Animation für Schriftgröße */
-  color: black;
+  text-color: black;
 }
 
 /* Verkleinern der Navigation beim Scrollen */
